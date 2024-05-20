@@ -10,7 +10,7 @@ public class PrintingEven
       System.out.print("Enter ending number: ");
       int number2 = sc.nextInt(); 
 
-      for(int i = number1; i<number2; i++)
+      for(int i = number1; i < number2; i++)
       {
 	if(i % 2 == 0)
 	System.out.println(i);
