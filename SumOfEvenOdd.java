@@ -21,7 +21,7 @@ public class SumOfEvenOdd
 	     eSum = eSum + r;
 	   }
 	   else
-	   {
+	   { 
 	     oSum = oSum + r;
 	   }
 	  number = number / 10;
