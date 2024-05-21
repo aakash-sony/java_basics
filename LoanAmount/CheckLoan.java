@@ -13,7 +13,7 @@ public class CheckLoan {
 		double interestRate = sc.nextDouble();
 		
 		System.out.println("Enter the month duration: ");
-	    int months = sc.nextInt();
+	        int months = sc.nextInt();
 	    
 		Loan l = new Loan(amount, interestRate, months);
 
