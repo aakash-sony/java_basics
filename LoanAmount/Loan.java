@@ -33,10 +33,10 @@ public class Loan
 	  {
 		if(principle > 0 && interestRate > 0 && durationMonths > 0)
 		{
-		   double InterestFor1Month = ((principle * interestRate)/100) / 12;
-		   double totalPayment = principle + InterestFor1Month * 10;
-		   double monthlyPayment = totalPayment / 12; 
-		   return monthlyPayment;
+			double totalInterest = (interestRate * durationMonths * principle)/(100*12);
+		    double totalPayment = (principle + totalInterest);
+		    double monthlyPayment = totalPayment/durationMonths;
+		      return monthlyPayment;
 		}
 		else
 		{
