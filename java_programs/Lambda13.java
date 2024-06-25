@@ -1,8 +1,3 @@
-public interface BiFunction<T,R> 
-{
-   
-}
-
 public class Lambda13
 {
    public static void main(String[] args) 
