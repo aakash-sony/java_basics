@@ -13,7 +13,7 @@ class ExceptionHandling2
 		}
 		catch(Exception e)
 		{
-			System.out.println(e);
+			System.out.println("String "+str+" can't converted to Integer.");
 		}
 		System.out.println("Main ended");
 	}
