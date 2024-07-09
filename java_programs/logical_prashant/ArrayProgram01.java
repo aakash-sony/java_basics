@@ -6,9 +6,9 @@ public class ArrayProgram01
 {
 	public static void main(String args[])
 	{
-		int arr[] = {2, 3, 12, 23, 15};
+		int arr[] = {2, 3, 12, 23, 15, 5};
 		System.out.println(checkingElement(arr));
-			
+			                                        
 	}
 	static boolean checkingElement(int arr[])
 	{

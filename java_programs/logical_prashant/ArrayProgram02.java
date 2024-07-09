@@ -6,7 +6,7 @@ public class ArrayProgram02
 {
 	public static void main(String args[])
 	{
-		int arr[] = {17};
+		int arr[] = {67, 78, 45, 89, 90};
 		System.out.println(checkingElement(arr));
 			
 	}
