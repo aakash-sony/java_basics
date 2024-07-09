@@ -6,8 +6,8 @@ public class ArrayProgram03
 {
 	public static void main(String args[])
 	{
-		int a[] = {17, 65, 78, 45, 90};
-		int b[] = {56, 89, 67, 56, 91};
+		int a[] = {19, 89, 67, 45, 67};
+		int b[] = {17, 89, 67, 65, 45};
 		System.out.println(checkingElement(a, b));
 			
 	}

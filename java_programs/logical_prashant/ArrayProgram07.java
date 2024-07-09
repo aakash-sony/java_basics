@@ -8,7 +8,7 @@ public class ArrayProgram07
 	public static void main(String args[])
 	{
 		int a[] = {17, 65, 78};	
-		System.out.println("Larger element: "+Arrays.toString(largestElement(a)));	
+		System.out.println("Updated array: "+Arrays.toString(largestElement(a)));	
 	}
 	
 	static int[] largestElement(int a[])
